@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root {
+    --fonte-header: "Passion One", sans-serif;
+    --fonte-main: "Sriracha", cursive;
+    --fonte-footer: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    min-width: 320px;
+}
+
+header {
+    background-color: black;
+    min-height: 174px;
+    max-height: 300px;
+}
+
+main {}
+
+article {}
+
+footer {}
+
