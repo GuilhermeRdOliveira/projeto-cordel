@@ -8,6 +8,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 :root {
     --fonte-header: "Passion One", sans-serif;
@@ -17,6 +21,9 @@
 
 body {
     min-width: 320px;
+    max-width: 1200px;
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -25,9 +32,33 @@ header {
     max-height: 300px;
 }
 
+header h1 {
+    font-family: var(--fonte-header);
+    font-weight: bolder;
+    color: white;
+}
+
 main {}
 
 article {}
 
-footer {}
+#parallax1 {
+    background-image: url('imagens/background001.jpg');
+}
+
+#parallax2 {
+    background-image: url('imagens/background002.jpg');
+}
+
+.parallax {
+    
+}
+
+.parallax p {
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
 
